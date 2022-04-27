@@ -30,5 +30,5 @@ background (services), I'd prefer Python.
 
 ### Touch gestures
 
-I installed the latest Touchegg from the PPA, then the latest Touche from FlatHub to
+I installed the latest [Touchégg](https://github.com/JoseExposito/touchegg) from the PPA, then the latest [Touché](https://github.com/JoseExposito/touche) from FlatHub to
 go with it. This seems to solve the touch gesture support.
