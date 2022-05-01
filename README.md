@@ -15,7 +15,7 @@ out-of-the-box, but there are a few missing features.
 * The pen works, and disables the touch screen when it's in proximity, but the lower
   button doesn't work (hardware issue?).
 * Plasma has settings for touchscreen gestures, but if that's enabled, tapping on the
-  panel doesn't generate clicks correctly (it's a little weird).
+  panel doesn't generate clicks correctly (it's a little weird), and scrolling is too fast.
 
 I've seen [this](https://askubuntu.com/a/1257454) that indicates that some of these
 things work in Plasma on Wayland, but my workflow isn't ready for Wayland yet.
@@ -26,9 +26,15 @@ I'd like to keep it simple, with as few non-default or custom pieces as possible
 quick, one-and-done settings, shell scripts are fine, but anything running in the
 background (services), I'd prefer Python.
 
+There is a [list](https://github.com/stars/mtkraai/lists/thinkpad-x1-yoga-g5) of some interesting repos.
+
 ## Solutions
+
 
 ### Touch gestures
 
-I installed the latest [Touchégg](https://github.com/JoseExposito/touchegg) from the PPA, then the latest [Touché](https://github.com/JoseExposito/touche) from FlatHub to
-go with it. This seems to solve the touch gesture support.
+I installed the latest [Touchégg](https://github.com/JoseExposito/touchegg) from the PPA,
+then the latest [Touché](https://github.com/JoseExposito/touche) from FlatHub to go with
+it. This seems to solve the touch gesture support. However, I need two-finger swipes for
+scrolling on the touchscreen, but Touché only presents three fingers and up for swipes
+because the touchpad driver steals two-finger swipes for its own scrolling support.
