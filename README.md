@@ -60,7 +60,4 @@ keycode 164 = Multi_key NoSymbol Multi_key
 ```
 
 This makes the "Favorites" key (Fn+F12, star) the compose key. I can simultaniously set
-Pause to be compose in the usual KDE settings, which should work with full-sized
-external keyboards.
-
-(Needs testing after restart.)
+Pause to be compose in the usual KDE settings, which works with full-sized external keyboards.
