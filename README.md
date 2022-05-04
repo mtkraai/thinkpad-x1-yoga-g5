@@ -61,3 +61,11 @@ keycode 164 = Multi_key NoSymbol Multi_key
 
 This makes the "Favorites" key (Fn+F12, star) the compose key. I can simultaniously set
 Pause to be compose in the usual KDE settings, which works with full-sized external keyboards.
+
+### Tablet orientation
+
+In this repo, see the `rotate_desktop.sh` script. It's not Python, but a major part of it uses
+awk, which makes me happy. It's based on the
+[mildmojo/rotate_desktop.sh](https://gist.github.com/mildmojo/48e9025070a2ba40795c) gist, with ideas
+from elsewhere mixed in with some original thoughts. I put it in `~/bin` and added it as a startup
+script in KDE.
