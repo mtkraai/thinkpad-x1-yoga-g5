@@ -1,6 +1,6 @@
-# ThinkPad X1 Yoga Gen 5
+# ThinkPad X1 Yoga Gen 5 | Kubuntu 22.04
 
-Scripts to enable tablet mode, etc on my laptop.
+Scripts to improve tablet mode, etc on my laptop, with Kubuntu 22.04.
 
 ## Context and problems
 
@@ -9,15 +9,15 @@ look and the features. The keyboard layout is a bit annoying, but I can work wit
 I prefer a Plasma desktop, so I installed Kubuntu. A lot of things work fine
 out-of-the-box, but there are a few missing features.
 
-* Flipping the screen to "tablet mode" disables the keyboard and touchpad, but
+* [x] Flipping the screen to "tablet mode" disables the keyboard and touchpad, but
   I was confused, because my finger on the screen triggered a long-press event on the
   desktop background, putting Plasma into Edit Mode.
-* Once in tablet mode, the screen should rotate based on the accelerometer, but it doesn't.
-* The pen works, and disables the touch screen when it's in proximity, but the lower
+* [x] Once in tablet mode, the screen should rotate based on the accelerometer, but it doesn't.
+* [ ] The pen works, and disables the touch screen when it's in proximity, but the lower
   button doesn't work (hardware issue?).
-* Plasma has settings for touchscreen gestures, but if that's enabled, tapping on the panel
+* [x] Plasma has settings for touchscreen gestures, but if that's enabled, tapping on the panel
   doesn't generate clicks correctly (it's a little weird), and scrolling is way too fast.
-* None of the standard options for the compose key seems convenient to me. I usually use
+* [x] None of the standard options for the compose key seems convenient to me. I usually use
   the Pause key, but the built-in keyboard doesn't have one.
 
 I've seen [this](https://askubuntu.com/a/1257454) that indicates that some of these
