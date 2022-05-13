@@ -13,12 +13,17 @@ out-of-the-box, but there are a few missing features.
   I was confused, because my finger on the screen triggered a long-press event on the
   desktop background, putting Plasma into Edit Mode.
 * [x] Once in tablet mode, the screen should rotate based on the accelerometer, but it doesn't.
-* [ ] The pen works, and disables the touch screen when it's in proximity, but the lower
-  button doesn't work (hardware issue?).
+* [x] The pen works, and disables the touch screen when it's in proximity, but the lower
+  button doesn't work (hardware issue?). Turns out, holding the lower button changes the pen to
+  eraser mode. Not the design I would wish for, but it'll do.
 * [x] Plasma has settings for touchscreen gestures, but if that's enabled, tapping on the panel
   doesn't generate clicks correctly (it's a little weird), and scrolling is way too fast.
 * [x] None of the standard options for the compose key seems convenient to me. I usually use
   the Pause key, but the built-in keyboard doesn't have one.
+* [ ] Apparently, LibreOffice doesn't support touch or stylus. It's all just treated
+  as a mouse.
+* [ ] VS Code scrolls fine on my Kubuntu 18.04 all-in-one touchscreen desktop, but not
+  on this Kubuntu 22.04 2-in-1 laptop.
 
 I've seen [this](https://askubuntu.com/a/1257454) that indicates that some of these
 things work in Plasma on Wayland, but my workflow isn't ready for Wayland yet.
