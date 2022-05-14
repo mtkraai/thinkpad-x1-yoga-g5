@@ -23,7 +23,8 @@ out-of-the-box, but there are a few missing features.
 * [ ] Apparently, LibreOffice doesn't support touch or stylus. It's all just treated
   as a mouse.
 * [ ] VS Code scrolls fine on my Kubuntu 18.04 all-in-one touchscreen desktop, but not
-  on this Kubuntu 22.04 2-in-1 laptop.
+  on this Kubuntu 22.04 2-in-1 laptop. Tapping makes a click event, but dragging just moves
+  the mounse cursor around.
 
 I've seen [this](https://askubuntu.com/a/1257454) that indicates that some of these
 things work in Plasma on Wayland, but my workflow isn't ready for Wayland yet.
